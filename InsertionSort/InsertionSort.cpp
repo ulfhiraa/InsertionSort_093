@@ -45,7 +45,7 @@ void insertionsort() {    // Menambahkan prosedur Insertion Sort
 			arr[j + 1] = arr[j];		// a. simpan arr[j] ke dalam nilai variable arr[j+1]
 			j--;						// b. Decrement nilai j by 1 
 		}
-		arr[j + 1] = temp;
+		arr[j + 1] = temp;				// 5. simpan nilai temp ke dalam arr[j+1]
 
 		cout << "\nPass " << i << ": ";
 		for (int k = 0; k < n; k++) {
