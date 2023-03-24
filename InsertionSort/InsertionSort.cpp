@@ -55,7 +55,7 @@ void insertionsort() {    // Menambahkan prosedur Insertion Sort
 }
 
 void display() {   // Menambahkan prosedur display
-	cout << "\n===============================" << endl;
+	cout << "\n===============================" << endl;  // Membuat tampilan element Array yang telah tersusun
 	cout << "Element Array Yang Telah Tersusun" << endl;
 	cout << "=================================" << endl;
 
