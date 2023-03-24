@@ -64,7 +64,7 @@ void display() {   // Menambahkan prosedur display
 	}
 }
 
-int main()
+int main()  // Fungsi untuk menjalankan program
 {
 	input();
 	insertionsort();
