@@ -37,7 +37,7 @@ void insertionsort() {    // Menambahkan prosedur Insertion Sort
 
 		temp = arr[i];   // 2. Simpan nilai arr[i] ke variable sementara temp
 
-		j = i - 1;
+		j = i - 1;		// 3. Setting nilai j sama dengan i-1;
 
 		while (j >= 0 && arr[j] > temp)
 
