@@ -4,9 +4,9 @@ using namespace std;
 int arr[20];			// membuat array dengan panjang data 20
 int n;					// membuat variable inputan n
 
-void input() {
+void input() {		// Procedure Input
 	while (true) {
-		cout << "Masukkan jumlah data pada array : ";
+		cout << "Masukkan jumlah data pada array : "; // Membuat Inputan jumlah element Array
 		cin >> n;
 
 		if (n <= 20) {
