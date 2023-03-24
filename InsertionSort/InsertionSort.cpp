@@ -59,7 +59,7 @@ void display() {   // Menambahkan prosedur display
 	cout << "Element Array Yang Telah Tersusun" << endl;
 	cout << "=================================" << endl;
 
-	for (int j = 0; j < n; j++) {
+	for (int j = 0; j < n; j++) {  // Menggunakan for untuk perulangan menyimpan data 
 		cout << arr[j] << " ";
 	}
 }
