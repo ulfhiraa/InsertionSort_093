@@ -47,7 +47,7 @@ void insertionsort() {    // Menambahkan prosedur Insertion Sort
 		}
 		arr[j + 1] = temp;				// 5. simpan nilai temp ke dalam arr[j+1]
 
-		cout << "\nPass " << i << ": ";
+		cout << "\nPass " << i << ": "; // Output ke layar
 		for (int k = 0; k < n; k++) {
 			cout << arr[k] << " ";
 		}
