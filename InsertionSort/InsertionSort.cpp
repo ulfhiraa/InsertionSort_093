@@ -43,7 +43,7 @@ void insertionsort() {    // Menambahkan prosedur Insertion Sort
 										// arr[j] lebih besar daripada temp
 		{
 			arr[j + 1] = arr[j];		// a. simpan arr[j] ke dalam nilai variable arr[j+1]
-			j--;
+			j--;						// b. Decrement nilai j by 1 
 		}
 		arr[j + 1] = temp;
 
