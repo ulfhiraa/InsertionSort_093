@@ -29,7 +29,7 @@ void input() {		// Procedure Input
 	}
 }
 
-void insertionsort() {
+void insertionsort() {    // Menambahkan prosedur Insertion Sort
 	int temp;
 	int j;
 
