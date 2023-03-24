@@ -42,7 +42,7 @@ void insertionsort() {    // Menambahkan prosedur Insertion Sort
 		while (j >= 0 && arr[j] > temp) // 4. Looping while dimana nilai j lebih besar sama dengan 0 dan 
 										// arr[j] lebih besar daripada temp
 		{
-			arr[j + 1] = arr[j];
+			arr[j + 1] = arr[j];		// a. simpan arr[j] ke dalam nilai variable arr[j+1]
 			j--;
 		}
 		arr[j + 1] = temp;
