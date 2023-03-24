@@ -17,7 +17,7 @@ void input() {		// Procedure Input
 			cout << "\nArray yang anda masukkan maksimal 20 elemen.\n"; // Menampilkan pesan jika data lebih dari 20
 		}
 	} 
-	cout << endl;
+	cout << endl;								// Membuat jarak perbaris program
 	cout << "======================" << endl;
 	cout << "Masukkan Element Array" << endl;
 	cout << "======================" << endl;
